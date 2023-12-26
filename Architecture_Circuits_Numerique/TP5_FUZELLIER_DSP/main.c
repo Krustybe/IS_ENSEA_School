@@ -1,0 +1,135 @@
+#include <cdef21262.h>
+#include <def21262.h>
+#include <21262.h>
+#include <signal.h>
+#include <sru.h>
+#include <stdlib.h>
+
+#define BUFSIZE 4800
+
+void SetupIRQ12(void);
+void Lisseur1D(float buffer[BUFSIZE], float gamma, int nsamples);
+
+extern void InitDAI(void);
+extern void Init1835viaSPI(void);
+extern void InitSPORT(void);
+
+extern unsigned int rx_buf[2], tx_buf[2];
+
+float *buffer_E;
+float *buffer_T;
+float *buffer_S;
+
+int T_FLAG;
+int i_ES = 0;
+int nsamples;
+
+float gammas[9] = {0,0.125,0.250,0.375,0.5,0.675,0.8,0.925,1};
+float gamma = 0;
+int ig = 0;
+
+void ReceptionISR(int sig_int){
+   int rx0 = rx_buf[0];
+    
+    rx0 = rx_buf[0]<<8;
+    rx0 = rx0>>8;
+    
+    buffer_E[i_ES] = rx0;
+    tx_buf[0] = buffer_S[i_ES];
+    
+    i_ES++;
+}
+
+void my_irq1 (int sig_num)
+{
+	sig_num = sig_num;
+	gamma = gammas[ig];
+	ig++;
+	
+	if (ig == 9)
+	{
+	    ig = 0;
+	}
+	return;
+}
+
+void my_irqP1(int sig_num)
+{ 
+    static int IT_register;
+    IT_register = *pDAI_IRPTL_H;
+    
+    sig_num = sig_num;
+    
+    if ((IT_register & SRU_EXTMISCB1_INT) !=0)
+    {
+        float *old_E = buffer_E;
+        float *old_T = buffer_T;
+        float *old_S = buffer_S;
+        
+        buffer_E = old_S;
+        buffer_T = old_E;
+        buffer_S = old_T;
+        
+        nsamples = i_ES;
+        i_ES = 0;
+        T_FLAG = 1;
+    }
+}
+
+void Lisseur1D(float* buffer, float gamma, int nsamples)
+{
+    int i;
+    float sn_1 =  buffer[0];
+    
+    for(i=0; i<nsamples; i++){
+        buffer[i] = sn_1*gamma + buffer[i]*(1-gamma);
+        sn_1 = buffer[i];
+    }
+    
+    sn_1 = buffer[nsamples-1];
+    
+    for(i=nsamples-2; i>=0; i--){
+        buffer[i] = sn_1*gamma  +buffer[i]*(1-gamma);
+        sn_1 = buffer[i];
+    }
+}
+
+void main(void)
+{
+    float gamma = 0.5;
+     InitDAI();
+    
+     Init1835viaSPI();
+     InitSPORT();
+    
+    buffer_E = (float*) malloc(BUFSIZE);
+    buffer_T = (float*) malloc(BUFSIZE);
+    buffer_S = (float*) malloc(BUFSIZE);
+    
+    // Enable interrupt nesting.
+    asm( "#include <def21262.h>" );
+    asm( "bit set mode1 IRPTEN;"  ); // Enable interrupts (globally)
+    asm( "LIRPTL = SP0IMSK;"  ); 	// Unmask the SPORT0 ISR
+    
+  
+    
+    *pDAI_IRPTL_PRI = SRU_EXTMISCB1_INT;
+    *pDAI_IRPTL_RE = SRU_EXTMISCB1_INT;
+    
+   
+    
+    SRU(LOW, DAI_PB01_I);
+    SRU(DAI_PB01_O, MISCB1_I);
+    SRU(LOW, PBEN01_I);
+    
+    interrupt (SIG_IRQ1, my_irq1);
+    interrupt (SIG_DAIH, my_irqP1);
+        
+    for(;;)
+    {
+        if(T_FLAG==1){
+            Lisseur1D(buffer_T, gamma, nsamples);
+            T_FLAG=0;
+        }
+    }
+}

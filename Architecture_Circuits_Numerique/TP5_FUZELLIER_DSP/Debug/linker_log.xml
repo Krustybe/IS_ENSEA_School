@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 4.5/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Nov 24 09:46:53 2023
+'>
+<MSG id='03837460' mid='li1021' type='Error'>
+<TEXT><![CDATA[The following symbols referenced in processor 'p0' could not be resolved:
+        'InitSPORT [_InitSPORT]' referenced from 'Debug\main.doj'
+        'rx_buf [_rx_buf]' referenced from 'Debug\main.doj'
+        'tx_buf [_tx_buf]' referenced from 'Debug\main.doj']]></TEXT>
+</MSG>
+</DOCUMENT>

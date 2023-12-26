@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 4.5/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Oct 06 11:23:42 2023
+'>
+<MSG id='02ECAE20' mid='li1021' type='Error'>
+<TEXT><![CDATA[The following symbols referenced in processor 'p0' could not be resolved:
+        'rii [_rii]' referenced from 'Release\rii.doj']]></TEXT>
+</MSG>
+</DOCUMENT>

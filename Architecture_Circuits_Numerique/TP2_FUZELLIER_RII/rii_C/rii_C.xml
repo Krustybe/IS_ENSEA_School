@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 4.5/System/linker_map_ss1.xsl"?>
+<!DOCTYPE DOCUMENT SYSTEM "file:///C:/Program Files (x86)/Analog Devices/VisualDSP 4.5/System/linker_map.dtd">
+<DOCUMENT>
+<LINKPROJECT id='025F8F98' name='p0' orig_file_name='Release\rii_C.dxe' architecture='ADSP-21262' >
+<FILE_NAME><![CDATA[Release\rii_C.dxe]]></FILE_NAME>
+<MEMORY id='02E0D2F0' name='seg_rth' start_address='0x80000' end_address='0x800ff' type='PM' qualifier='RAM' width='0x30' words_used='0xc2' words_unused='0x3e' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F058C0' name='seg_rth' type='SHT_PROGBITS' start_address='0x80000' word_size='0xc2' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='02E04278' name='seg_rth' start_address='0x80000' size='0xc2' element_at='0x0' >
+<INPUT_FILE><![CDATA[262_hdr.doj]]></INPUT_FILE>
+<SYMBOL name='___lib_RSTI' address='0x80004' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_RSTI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_IICDI' address='0x80008' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_IICDI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SOVFI' address='0x8000c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SOVFI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_TMZHI' address='0x80010' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_TMZHI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_BKPI' address='0x80018' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_BKPI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_IRQ2I' address='0x80020' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_IRQ2I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_IRQ1I' address='0x80024' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_IRQ1I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_IRQ0I' address='0x80028' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_IRQ0I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_DAIHI' address='0x8002c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_DAIHI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SPIHI' address='0x80030' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SPIHI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_GPTMR0I' address='0x80034' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_GPTMR0I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP1I' address='0x80038' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP1I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP3I' address='0x8003c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP3I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP5I' address='0x80040' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP5I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP0I' address='0x80044' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP0I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP2I' address='0x80048' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP2I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SP4I' address='0x8004c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SP4I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_PPI' address='0x80050' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_PPI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_GPTMR1I' address='0x80054' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_GPTMR1I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_DAILI' address='0x8005c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_DAILI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_GPTMR2I' address='0x80070' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_GPTMR2I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SPILI' address='0x80074' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SPILI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_CB7I' address='0x80078' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_CB7I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_CB15I' address='0x8007c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_CB15I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_TMZLI' address='0x80080' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_TMZLI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_FIXI' address='0x80084' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_FIXI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_FLTOI' address='0x80088' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_FLTOI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_FLTUI' address='0x8008c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_FLTUI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_FLTII' address='0x80090' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_FLTII]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_EMULI' address='0x80094' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_EMULI]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SFT0I' address='0x80098' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SFT0I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SFT1I' address='0x8009c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SFT1I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SFT2I' address='0x800a0' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SFT2I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_SFT3I' address='0x800a4' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_SFT3I]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___z3_int_determiner' address='0x800ac' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__z3_int_determiner]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_start' address='0x800b5' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_start]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_start.end' address='0x800be' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_prog_term' address='0x800be' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_prog_term]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_prog_term.end' address='0x800c1' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='__done_execution' address='0x800c1' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_done_execution]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D1D0' name='seg_init' start_address='0x80100' end_address='0x801ff' type='PM' qualifier='RAM' width='0x30' words_used='0x9' words_unused='0xf7' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F05680' name='seg_init' type='SHT_PROGBITS' start_address='0x80100' word_size='0x9' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='02F08CB0' name='seg_init' start_address='0x80100' size='0x1' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_stack_space' address='0x80100' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_stack_space]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_stack_space.end' address='0x80101' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F09178' name='seg_init' start_address='0x80101' size='0x1' element_at='0x1' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_stack_length' address='0x80101' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_stack_length]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_stack_length.end' address='0x80102' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F091C0' name='seg_init' start_address='0x80102' size='0x1' element_at='0x2' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___inits' address='0x80102' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__inits]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___inits.end' address='0x80103' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F095B0' name='seg_init' start_address='0x80103' size='0x5' element_at='0x3' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_heap_space' address='0x80103' size='0x5' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_heap_space]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_heap_space.end' address='0x80108' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F09298' name='seg_init' start_address='0x80108' size='0x1' element_at='0x8' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_end_of_heap_descriptions' address='0x80108' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_end_of_heap_descriptions]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_end_of_heap_descriptions.end' address='0x80109' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_end_of_heap_descriptions.end]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D2B0' name='seg_int_code' start_address='0x80200' end_address='0x802ef' type='PM' qualifier='RAM' width='0x30' words_used='0x0' words_unused='0xf0' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F056C0' name='seg_int_code' type='SHT_PROGBITS' start_address='0x80200' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D320' name='seg_pmco' start_address='0x802f0' end_address='0x841ff' type='PM' qualifier='RAM' width='0x30' words_used='0x1f3' words_unused='0x3d1d' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F05900' name='seg_pmco' type='SHT_PROGBITS' start_address='0x802f0' word_size='0x1f3' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='02F08998' name='seg_pmco' start_address='0x802f0' size='0x3e' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+<SYMBOL name='.LN_rii' address='0x802f0' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.epctext' address='0x802f0' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='_rii' address='0x802f0' size='0x3e' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[rii]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L29' address='0x80306' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L30' address='0x8030c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L34' address='0x8030c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L35' address='0x8030f' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L20' address='0x80320' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L21' address='0x80327' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L25' address='0x80327' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L8' address='0x80327' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L36' address='0x80329' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.LN._rii.end' address='0x8032e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='._rii.end' address='0x8032e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08F80' name='seg_pmco' start_address='0x8032e' size='0x15' element_at='0x3e' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+<SYMBOL name='.LN_main' address='0x8032e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='_main' address='0x8032e' size='0x15' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[main]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.LN._main.end' address='0x80343' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='._main.end' address='0x80343' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.epctext.end' address='0x80343' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08B00' name='seg_pmco' start_address='0x80343' size='0x7a' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[060_proc2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_setup_processor' address='0x80343' size='0x7a' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_processor]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_clear_irptl' address='0x80346' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_clear_irptl]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_clear_cache' address='0x8034b' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_clear_cache]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_registers' address='0x8034f' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_registers]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='end_setup' address='0x80377' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_modes' address='0x8037a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_modes]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_memory' address='0x8037d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_memory]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_dm' address='0x80381' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_blk_dm' address='0x8038b' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_inits_dm' address='0x8038c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_pm' address='0x8038d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_blk_pm' address='0x80398' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_inits_pm' address='0x8039a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_dm' address='0x8039b' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_blk_dm' address='0x803a7' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='blk_inits_dm' address='0x803a8' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_pm' address='0x803a9' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_blk_pm' address='0x803b4' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='blk_inits_pm' address='0x803b6' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='finish_inits' address='0x803b7' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_hardware' address='0x803b8' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_hardware]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_hardware.end' address='0x803bd' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_processor.end' address='0x803bd' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02EF8290' name='seg_pmco' start_address='0x803bd' size='0x0' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[argstring2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='.epctext' address='0x803bd' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02EF8F38' name='seg_pmco' start_address='0x803bd' size='0xf' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[errno2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_setup_ctxt' address='0x803bd' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_ctxt]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_ctxt' address='0x803be' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_ctxt.end' address='0x803c4' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_ctxt.end]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='____errno' address='0x803c4' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='__get_tlv_data' address='0x803c4' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_get_tlv_data]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.____errno.end' address='0x803ca' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.__get_tlv_data.end' address='0x803ca' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_get_context_rec' address='0x803ca' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_get_context_rec]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_get_errno_addr' address='0x803ca' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_get_errno_addr]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08FC8' name='seg_pmco' start_address='0x803cc' size='0x1d' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[exit2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='__exit' address='0x803cc' size='0x1d' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_exit]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='_exit' address='0x803cc' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[exit]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='find_end' address='0x803d4' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='found_end' address='0x803d6' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='execute_routine' address='0x803d9' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='label_1' address='0x803e1' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='finished_table' address='0x803e6' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.__exit.end' address='0x803e9' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='._exit.end' address='0x803e9' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08F38' name='seg_pmco' start_address='0x803e9' size='0x1e' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[getargv2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='__getargv' address='0x803e9' size='0x1e' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_getargv]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L4' address='0x803f9' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L6' address='0x80400' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L2' address='0x80403' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.__getargv.end' address='0x80407' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.epctext.end' address='0x80407' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02EF8A70' name='seg_pmco' start_address='0x80407' size='0x14' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init_rtheap2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='__heaps' address='0x80407' size='0x14' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_heaps]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.__heaps.end' address='0x8041b' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02EF8F80' name='seg_pmco' start_address='0x8041b' size='0x1' element_at='0x14' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[seg_init_rtheap2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='__nheaps' address='0x8041b' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[_nheaps]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.__nheaps.end' address='0x8041c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02EF8DD0' name='seg_pmco' start_address='0x8041c' size='0x14' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[set_args2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_setup_args' address='0x8041c' size='0x14' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_args]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_argv' address='0x80422' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_argv]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='clear_argv' address='0x80426' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_argv' address='0x80427' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='init_arg1' address='0x8042a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_args.end' address='0x80430' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08E18' name='seg_pmco' start_address='0x80430' size='0x3' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[set_c2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_setup_c' address='0x80430' size='0x3' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_c]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_c.end' address='0x80433' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08A70' name='seg_pmco' start_address='0x80433' size='0xb0' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[set_env2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_setup_environment' address='0x80433' size='0xb0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_environment]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_exit' address='0x8043a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_exit]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zero_exit_table' address='0x8043d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_ints' address='0x8043f' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_ints]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='low_int_table' address='0x8044c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='low_liprt_int_table' address='0x80455' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='med_int_table' address='0x8045f' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='high_liprt_int_table' address='0x80468' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='high_int_table' address='0x80472' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='sw_int_table' address='0x8047c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_stacks' address='0x8047e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_stacks]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_init_heaps' address='0x80495' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_init_heaps]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.P1L1' address='0x8049a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_init_heaps.end' address='0x8049e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_runtime_heap' address='0x8049e' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_setup_runtime_heap]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_runtime_heap.end' address='0x804a1' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_setup_heaps' address='0x804a1' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_setup_heaps]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='loop_thru_heaps' address='0x804a3' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='pm_heap' address='0x804c6' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_sure_rts' address='0x804d5' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_sure_rts]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='___lib_sure_rti' address='0x804db' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_sure_rti]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_setup_environment.end' address='0x804e3' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_sure_rti.end' address='0x804e3' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___lib_sure_rts.end' address='0x804e3' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D2C0' name='seg_pmda' start_address='0x86300' end_address='0x87fff' type='PM' qualifier='RAM' width='0x20' words_used='0x0' words_unused='0x1d00' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F05940' name='seg_pmda' type='SHT_PROGBITS' start_address='0x86300' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D220' name='seg_dmda' start_address='0xc0000' end_address='0xc7fff' type='DM' qualifier='RAM' width='0x20' words_used='0x8000' words_unused='0x0' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F059C0' name='.bss' type='SHT_NOBITS' start_address='0xc0000' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+<OUTPUT_SECTION id='02F05A80' name='seg_dmda' type='SHT_PROGBITS' start_address='0xc0000' word_size='0x8000' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='02F087E8' name='seg_dmda' start_address='0xc0000' size='0x100' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+<SYMBOL name='_inbuf' address='0xc0000' size='0x100' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[inbuf]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='._inbuf.end' address='0xc0100' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08AB8' name='seg_dmda' start_address='0xc0100' size='0x1' element_at='0x100' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+<SYMBOL name='_SAMPLES' address='0xc0100' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[SAMPLES]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='._SAMPLES.end' address='0xc0101' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08878' name='seg_dmda' start_address='0xc0101' size='0x1' element_at='0x101' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08758' name='seg_dmda' start_address='0xc0102' size='0x100' element_at='0x102' split=''>
+<INPUT_FILE><![CDATA[Release\rii.doj]]></INPUT_FILE>
+<SYMBOL name='_outbuf' address='0xc0102' size='0x100' binding='WEAK'><DEMANGLED_NAME><![CDATA[outbuf]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F09010' name='seg_dmda' start_address='0xc0202' size='0x1' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[argstring2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___argv_string' address='0xc0202' size='0x1' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__argv_string]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.___argv_string.end' address='0xc0203' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F096D0' name='seg_dmda' start_address='0xc0203' size='0x6' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[errno2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='_errno' address='0xc0203' size='0x6' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[errno]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08EF0' name='seg_dmda' start_address='0xc0209' size='0x1' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[getargv2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='.static0' address='0xc0209' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.static0.end' address='0xc020a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08BD8' name='seg_dmda' start_address='0xc020a' size='0x14' element_at='0x1' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[getargv2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='__Argv' address='0xc020a' size='0x14' binding='WEAK'><DEMANGLED_NAME><![CDATA[_Argv]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08908' name='seg_dmda' start_address='0xc021e' size='0x126' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[int_tabl2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_int_table' address='0xc021e' size='0x126' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_int_table]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F090E8' name='seg_dmda' start_address='0xc0344' size='0x2' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[set_args2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_argv' address='0xc0344' size='0x2' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_argv]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F09448' name='seg_dmda' start_address='0xc0346' size='0x4' element_at='0x2' split=''>
+<INPUT_FILE><![CDATA[libc26x.dlb[set_args2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_arg1' address='0xc0346' size='0x4' binding='LOCAL'><DEMANGLED_NAME><![CDATA[__lib_arg1]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='02F08950' name='seg_dmda' start_address='0xc034a' size='0x20' element_at='0x0' >
+<INPUT_FILE><![CDATA[libc26x.dlb[set_env2126x_rev_0.0.doj]]]></INPUT_FILE>
+<SYMBOL name='___lib_exit_table' address='0xc034a' size='0x20' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[__lib_exit_table]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='02E0D3A0' name='seg_sram' start_address='0x1000000' end_address='0x2ffffff' type='DM' qualifier='DMAONLY' width='0x8' words_used='0x0' words_unused='0x2000000' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='02F05C00' name='seg_sram' type='SHT_PROGBITS' start_address='0x1000000' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<LDF_SYMBOLS>
+<SYMBOL name='ldf_seginit_space' address='0x80100' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='heaps_and_stack' address='0xc036a' size='0x7c96' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='heaps_and_stack_length' address='0x7c96' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_stack_space' address='0xc036a' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_stack_end' address='0xc41b5' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_stack_length' address='0x3e4b' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_heap_space' address='0xc41b5' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_heap_end' address='0xc8000' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_heap_length' address='0x3e4b' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</LDF_SYMBOLS>
+</LINKPROJECT>
+</DOCUMENT>

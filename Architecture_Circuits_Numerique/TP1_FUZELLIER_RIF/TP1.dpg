@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<visualdsp-project-group generated="Tue Nov 14 14:24:57 2023" version="1.0.0.0" active-project="rii_C">
+	<project name="rif_ASM" file=".\rif_ASM\rif_ASM.dpj">
+	</project>
+	<project name="rii_C" file="..\TP2\rii_C\rii_C.dpj">
+	</project>
+</visualdsp-project-group>
